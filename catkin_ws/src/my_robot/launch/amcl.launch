@@ -10,8 +10,13 @@
     <param name="base_frame_id" value="robot_footprint"/>
     <param name="global_frame_id" value="map"/>
 
+    <param name="min_particles" value="100"/>
+    <param name="max_particles" value="1000"/>
+
     <param name="initial_pose_x" value="0"/>
     <param name="initial_pose_y" value="0"/>
+
+    <param name="laser_model_type" value="likelihood_field"/>
   </node>
 
   <!-- Move Base -->
